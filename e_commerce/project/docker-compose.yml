@@ -9,6 +9,7 @@ services:
     build: 8000:8000
     networks:
       - deploy_network
+    image: go_ecommerce
     container_name: go_ecommerce
 
 networks:
